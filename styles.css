@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header-with-image {
+  background: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 55% 100% no-repeat;
+  min-height: 69vh;
+}
+
+#flex-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+#flex-bottom img {
+  width: 24.9%;
+}
+
+#search-div {
+  position: relative;
+}
+
+#before-nav {
+  height: 70px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  height: 36px;
+  background: linear-gradient(180deg, #666, #5e5e5e, #707070, #808080);
+  padding: 0px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+
+
+#apple-logo {
+  color: silver;
+  font-size: 24px;
+}
+
+nav input {
+  width: 100%;
+  background-color: gray;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 10px;
+  padding: 3px 0px;
+}
+
+.fa-search {
+  position: absolute;
+  color: white;
+  left: 11px;
+  top: 7px;
+  font-size: 12px;
+}
+
+.header-item {
+  font-size: 14px;
+  border-right: 1px solid black;
+  height: 100%;
+  width: 11.1%;
+  color: white;
+}
+
+.header-item:hover {
+  background-color: rgb(80, 80, 80);
+
+}
+
+.header-item p {
+  margin-top: 10px;
+}
+
+.header-item i {
+  margin-top: 5px;
+}
+
+
+#search-div {
+  border: none;
+  padding: 0px 5px;
+}
+
+#search-div input {
+  margin-top: 5px;
+}
+
+#hero {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#hero h1 {
+  font-weight: 100;
+  font-size: 64px;
+}
+
+#hero h3 {
+  width: 70%;
+  margin: 20px auto;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+#hero h5 {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+footer {
+  display: flex;
+}
+#left, #right {
+  width: 50%;
+  font-size: 13px;
+  color: gray;
+}
+#left {
+  padding: 30px 0px 20px 120px;
+}
+#left p {
+  line-height: 2;
+}
+#right {
+  padding: 30px 120px 20px 0px;
+}
+
+#right a, #left a {
+  color: rgb(11, 116, 202);
+  text-decoration: none;
+  
+}
